@@ -1,0 +1,262 @@
+/* Default Css */
+
+:root {
+    --primary-color: #C72014; 
+    --body-bg-color: #f5f5f5; 
+    --white:#fff;
+    --heading3-color: #1E1E1E;
+    --text-color:#2E3F47;
+  }
+
+  /* Common Css ===================================================== */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    line-height: 12px;
+    font-weight: 500;
+  }
+
+  body {
+    background-color: var(--body-bg-color);
+    font-family: "Roboto", sans-serif;
+  }
+  .text-color{
+    color: var(--text-color);
+  }
+  .red-color{
+    color: var(--primary-color);
+  }
+
+  .container{
+    width: 595px;
+    margin: auto;
+    height: 842px;
+    margin-top: 20px;
+    background: var(--white);
+    position: relative;
+   
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 40px;
+
+  }
+
+  .footer .logo img {
+    
+    height: auto;
+    width: 73px;
+    margin-top: 5px;
+}
+
+.footer p{
+font-size: 8px;
+font-family: "Roboto", sans-serif;
+line-height: 9px;
+}
+.pb10{
+padding-bottom: 10px !important;
+}
+
+  
+  .navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px  40px;
+border-bottom: 2px solid var(--primary-color);
+
+  }
+
+  .logo img {
+    height: auto;
+    width: 120px;
+    margin-top: 5px;
+}
+.default-padding{
+    padding: 0 40px;
+}
+.text-right{
+    text-align: right;
+}
+  .nav-right h4{
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height:21px;
+  }
+
+  .nav-right p {
+    font-size: 9px;
+    font-family: "Poppins", sans-serif;
+    line-height: 14px;
+}
+.popin{
+    font-family: "Poppins", sans-serif;
+}
+.heading {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 21px;
+}
+/* .heading2{
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+} */
+.heading2 {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -3px;
+    padding-top: 0;
+}
+.title-head{
+    font-size: 10px;
+    font-weight: 500; 
+    text-align: center;  
+    line-height: 12px;
+}
+.lh-12{
+    line-height: 12px !important;
+}
+.text-center{
+    text-align: center;
+}
+.small {
+    font-size: 8px;
+    color: #454753;
+    line-height: 9px;
+}
+  main {
+    margin-top: 50px;
+  }
+
+  .items-container{
+    display: grid;
+    grid-template-columns: 340px 87.5px 87.5px;
+    padding-bottom: 16px;
+  }
+  h4.heading.text-center.heading-3-col.font10 {
+    margin-bottom: -10px;
+}
+
+ul{
+    padding-left: 40px;
+    padding-right: 10px;
+}
+ul li {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 2px;
+}
+
+
+  .amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.5px solid #83858C;
+   
+}
+  .amount h4{
+    padding-bottom: 0;
+  }
+  .heading-3-col{
+    color: var(--heading3-color);
+  }
+  #checkbox {
+    display: none;
+  }
+  
+  /* Style the custom checkbox */
+  .checkbox-custom {
+    display: inline-block;
+    width:  20px;
+    height:  20px; 
+    background-color: #fff;
+    border:  1px solid #83858C;
+    border-radius: 6px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+  }
+  
+  /* Style the custom checkbox when checked */
+  #checkbox:checked + .checkbox-custom {
+    background-color: var(--primary-color);
+  }
+  
+  
+
+/**
+===================== page 3 CSS
+*/
+.Chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font10{
+font-size: 10px !important;
+}
+
+
+/**
+===================== page 4 CSS
+*/
+
+h4.heading.text-center.heading-3-col.font10 {
+    margin-bottom: -10px;
+    font-weight: 500;
+}
+
+/* page no 3 css */
+.text-color{
+    color: var(--text-color);
+}
+.monthly-fee{
+padding-left: 9px;
+}
+.monthly-fee .service-fee{
+line-height: 12px;
+font-size: 10px;
+font-weight: 400;
+padding:8px 0;
+
+}
+
+.bold-text{
+    font-weight: 500;
+    color: #2E3F47;
+    line-height: 12px;
+}
+.min-max{
+    padding-top: 8px;
+}
+.ebayfee{
+    padding: 8px;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+.pb1{
+
+    margin-bottom: 4px;
+}
